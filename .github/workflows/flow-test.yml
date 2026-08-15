@@ -1,6 +1,6 @@
 name: flow-test
 on: push
- jobs:
+jobs:
    test:
      -run-on: unbuntu-slim
       steps:
