@@ -1,0 +1,11 @@
+name: flow-test
+on: push
+ jobs:
+   test:
+     -run-on: unbuntu-slim
+      steps:
+        - name: testing the code
+          run: echo "testing"
+        - name: building the code
+          run: echo "build"
+
