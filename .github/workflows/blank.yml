@@ -4,7 +4,7 @@ jobs:
   first_job:
     runs-on: ubuntu-slim
     steps:
-       -name: Hello
+      - name: Hello
         run: echo "Hello There!"
-       -name: Bye
+      - name: Bye
         run:  echo "bye!!"
