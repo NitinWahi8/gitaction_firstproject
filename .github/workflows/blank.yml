@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   first_job:
     runs-on: ubuntu-slim
-     steps:
+    steps:
        -name: Hello
-       -run: echo "Hello There!"
+        run: echo "Hello There!"
        -name: Bye
-       -run:  echo "bye!!"
+        run:  echo "bye!!"
