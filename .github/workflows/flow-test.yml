@@ -3,7 +3,7 @@ on: push
 jobs:
    test:
      -run-on: unbuntu-slim
-      steps:
+       steps:
         - name: testing the code
           run: echo "testing"
         - name: building the code
