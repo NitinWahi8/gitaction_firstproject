@@ -1,0 +1,9 @@
+name: First_repo
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-slim
+     steps:
+       echo: "Hello There!"
+     steps:
+       echo: "bye!!"
